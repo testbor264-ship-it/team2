@@ -3,7 +3,7 @@ import bodyParser from "body-parser";
 import path from "path";
 import fs from "fs-extra";
 import { fileURLToPath } from "url";
-import initializeTelegramBot from "./bot.js";
+import initializeTelegramBot from "./inconnu.js";
 import { forceLoadPlugins } from "./lib/plugins.js";
 //import { createSockAndStart, attachHandlersToSock } from "./lib/client.js";
 import eventlogger from "./lib/handier.js";
